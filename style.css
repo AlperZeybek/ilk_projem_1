@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.header{
+    background-color: rgb(240, 255, 247);
+    padding: 8px 16px;
+}
+
+#nav{
+   width:calc(100% - 80px);
+    text-align: right;
+}
+.nav_li{
+display: inline-block;
+margin: 0,10px;
+
+
+
+}
+.nav_li a { 
+    text-decoration: none;
+    color: rgb(233, 17, 17);
+}
+.logo{
+    display: flex;
+}
+.kolon{
+    display: inline-block;width: 47%;
+    padding: 16px;
+    margin: 8px ;
+    color: blueviolet;
+    background-color: aqua;
+    
+}
+.ilktanitim{
+
+    text-align: center;
+}
+.mainpage{
+    
+    padding: 12px;
+    width: 100%;
+}
+
